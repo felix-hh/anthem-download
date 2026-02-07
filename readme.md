@@ -2,7 +2,7 @@
 
 ## Background
 
-I like to keep organized records of my medical paperwork, but Anthem doesn't offer an API or bulk download option for Explanation of Benefits documents. So I did what any reasonable person would do: spent way too long building a Playwright script that connects to my browser, clicks download buttons, and renames the files nicely. You're welcome, future me.
+I like to keep organized records of my medical paperwork, but Anthem doesn't offer an API or bulk download option for Explanation of Benefits documents. So I did what any reasonable person would do: spent a bit less than an hour building a Playwright script that connects to my browser, clicks download buttons, and renames the files nicely. You're welcome, future me.
 
 ## Usage
 
