@@ -24,4 +24,4 @@ Three things I learned building this with Claude:
 
 2. **"Wait and think" helps.** When we hit a dead end with clicks not triggering downloads, I asked Claude to pause and reconsider. It shifted from simple `.click()` to CDP mouse events trying to simulate human behavior. It didn't work, but watching the approach evolve was interesting.
 
-3. **Prompting to search was the breakthrough.** Despite being trained on web data, Claude didn't think to search for the solution. When I asked it to look up "playwright downloads not working," it found the actual fix: using `waitForEvent('download')` and `download.saveAs()` for CDP connections. Sometimes the best prompt is "go look it up."
+3. **Prompting to search was the breakthrough.** Despite being trained on web data, Claude can still benefit from search. When I asked it to look up "playwright downloads not working," it found the actual fix: using `waitForEvent('download')` and `download.saveAs()` for CDP connections. Sometimes the best prompt is "go look it up."
