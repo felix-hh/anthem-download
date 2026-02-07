@@ -1,0 +1,17 @@
+{
+  "name": "anthem-download",
+  "version": "1.0.0",
+  "description": "Download EOBs from Anthem using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "download": "node download-eobs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
