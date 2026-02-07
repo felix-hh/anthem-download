@@ -14,6 +14,8 @@ I like to keep organized records of my medical paperwork, but Anthem doesn't off
 6. Run `node download-eobs.js`
 7. PDFs are saved to `./downloads/` as `YYYY-MM-DD_EOB_provider-name.pdf`
 
+![Example downloads](example-downloads.png)
+
 ## AI Coding Learnings
 
 Three things I learned building this with Claude:
